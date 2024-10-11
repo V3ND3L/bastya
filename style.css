@@ -1,0 +1,57 @@
+body {
+    background-color: #CED5E0;
+}
+
+a, a :hover, a :visited, a :active {
+    cursor: pointer;
+    color: #FF0000;
+}
+
+a > img {
+    width: 50px;
+}
+
+.tartalom {
+    margin: auto;
+    width: 800px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 > img {
+    margin: 0 15px 0 15px;
+}
+
+hr {
+    width: 400px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid gray 1px;
+}
+
+td > img {
+    display: block;
+    margin: 0 auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+#valasz {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tartalom {
+    padding: 1vh;
+}
